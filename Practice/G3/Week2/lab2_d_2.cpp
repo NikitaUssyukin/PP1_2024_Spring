@@ -1,4 +1,6 @@
+// alternative solution using cmath
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -15,7 +17,7 @@ int main() {
     // converting n from the number of steaks to the number of sides of the steaks
     n *= 2; // same as n = n * 2;
 
-    cout << (n + n % k) / k << endl;
+    cout << round(double(n) / double(k)) << endl;
 
     return 0;
 
