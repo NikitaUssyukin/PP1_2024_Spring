@@ -6,6 +6,7 @@ int main() {
     int a = 10; // 1010
     int b = 2;  // 0010
 
+    // bitwise operations
     cout << (a | b) << endl; // 1010
     cout << (a & b) << endl; // 0010
     cout << (a ^ b) << endl; // 1000
