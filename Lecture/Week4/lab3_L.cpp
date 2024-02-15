@@ -46,18 +46,17 @@ int main() {
 
     cout << i << " " << j << endl;
 
-    // figure out why it does not work!
-    // if(i == n) {
-    //     while(i + j < n + m) {
-    //         c[i + j] == b[j];
-    //         ++j;
-    //     }
-    // } else {
-    //     while(i + j < n + m) {
-    //         c[i + j] == a[i];
-    //         ++i;
-    //     }
-    // }
+    if(i == n) {
+        while(i + j < n + m) {
+            c[i + j] = b[j];
+            ++j;
+        }
+    } else {
+        while(i + j < n + m) {
+            c[i + j] = a[i];
+            ++i;
+        }
+    }
 
     c[i + j] = a[i];
 
