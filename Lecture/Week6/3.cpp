@@ -13,6 +13,6 @@ int main() {
     cout << (name1 < name2) << endl;
     cout << (name1 >= name2) << endl;
     cout << (name1 <= name2) << endl;
-
+    
     return 0;
 }

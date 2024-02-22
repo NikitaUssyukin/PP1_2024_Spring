@@ -10,7 +10,6 @@ int main() {
     getline(cin, s2);
 
     cout << s1 << " " << s2 << endl;
-    
 
     return 0;
 }
