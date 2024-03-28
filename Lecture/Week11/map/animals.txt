@@ -1,0 +1,6 @@
+5
+Dogs 10
+Cats 15
+Mice 2
+Elephants 3 
+Tigers 5
