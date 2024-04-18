@@ -17,7 +17,7 @@ int main() {
     set<int>::iterator it;
 
     for(it = s.begin(); it != s.end();) {
-        int x = it;
+        int x = *it;
         if(x % 2 == 0) {
             ++it;
             s.erase(x);
