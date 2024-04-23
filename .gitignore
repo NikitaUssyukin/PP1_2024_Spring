@@ -3,5 +3,8 @@
 Other/*
 ./Other
 ./Other/*
+Other/**
 .vscode/*
 .vscode
+mingw
+**/a.exe
