@@ -1,10 +1,7 @@
 .DS_Store
 *.DS_Store
-Other/*
-./Other
-./Other/*
-Other/**
-.vscode/*
-.vscode
+/Other
+/.vscode
+*/.vscode/*
 mingw
 **/a.exe
