@@ -1,0 +1,5 @@
+4
+set cat lion
+set bird parrot
+get cat
+get dog
